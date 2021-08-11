@@ -9,6 +9,14 @@ body {
     overflow: hidden;
     height: 3rem;
     position: relative;
+    margin: auto;
+}
+
+.nav p{
+   
+    text-align: center;
+   
+   
 }
 
 /* HIDE NAVIGATION LINKS */
@@ -57,5 +65,18 @@ body {
 /* ACTIVE LINK/LOGO */
 .active {
     color: rgb(255,253,253);
+}
+
+/* Logo */
+
+.logo {
+    height: 200px;
+    width: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+    
+    
 }
 
