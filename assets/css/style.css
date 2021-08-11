@@ -12,11 +12,11 @@ body {
     margin: auto;
 }
 
-.nav p{
-   
-    text-align: center;
-   
-   
+.title{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 3rem;
 }
 
 /* HIDE NAVIGATION LINKS */
@@ -75,8 +75,51 @@ body {
     display: block;
     margin-left: auto;
     margin-right: auto;
+}
 
-    
-    
+/* HOME PAGE GRID */
+
+.grid-container {
+    display: grid;
+    padding: 10px;
+    grid-template-columns: auto auto;
+  }
+
+.grid-item {
+    border: 1px solid;
+    display: inline-grid;
+    padding: 10px;
+    font-size: 12px;
+    text-align: center;
+}
+
+ h6 {
+    margin: 0px;
+}
+
+.grid-item p {
+    font-size: 10px;
+    text-align: left;
+}
+
+.grid-pic-1 {
+    height: 140px;
+    width: auto; 
+    padding-right: 0;
+    padding-left: 0;
+}
+
+.values {
+    font-size: 10px;
+    text-align: left;
+    padding-left: 10px;
+}
+
+.grid-pic-2 {
+
+    height: 90px;
+    width: auto; 
+    padding-right: 0;
+    padding-left: 0;
 }
 
