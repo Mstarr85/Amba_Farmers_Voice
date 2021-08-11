@@ -3,24 +3,56 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title></title>
+        <title>Team</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href=".assets/css.">
+        <link rel="stylesheet" href="./assets/css/style.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
     </head>
     <body>
        
-
+<!-- START NAVBAR MENU -->
         <div class="nav">
-            <a class="active" href="./index.html">Home</a>
-            <a href="./about.html">About Us</a>
-            <a href="./video.html">Video Library</a>
-            <a href="./deployment.html">Deployment</a>
-            <a href="./media.html">Media</a>
-            <a href="./publications.html">Publications</a>
-            <a href="./team.html">Meet the Team</a>
-        </div>
-        <h1>Team Page</h1>
-        <script src="" async defer></script>
+          
+          <p>Amba Farmers Voice</p>
+
+    <!-- HAMBURGER MENU TOGGLE BUTTON -->
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fas fa-bars"></i>
+      </a>
+      </div>
+<!-- END NAVBAR MENU -->
+        
+    <!-- NAVBAR LINKS HIDDEN -->  
+      <div id="nav-links">
+        
+       
+
+        <div class="item1"><a href="./index.html" class="active" >Home</a></div>
+        <div class="item2"><a href="./about.html">About Us</a></div>
+        <div class="item3"><a href="./video.html">Video Library</a></div>  
+        <div class="item4"><a href="./deployment.html">Deployment</a></div>
+        <div class="item5"><a href="./media.html">Media</a></div>
+        <div class="item6"><a href="./publications.html">Publications</a></div>
+        <div class="item7"><a href="./team.html">Meet the Team</a></div>
+      </div>
+
+      
+     
+
+
+<!-- TOGGLE FUNCTION -->
+    <script>
+        function myFunction() {
+          var x = document.getElementById("nav-links");
+          if (x.style.display === "block") {
+            x.style.display = "none";
+          } else {
+            x.style.display = "block";
+          }
+        }
+        </script>
+
+    <script src="" async defer></script>
     </body>
 </html>
