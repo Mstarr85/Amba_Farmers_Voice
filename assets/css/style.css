@@ -1,6 +1,7 @@
 body {
     margin: 0;
     font-family:Arial, Helvetica, sans-serif;
+    background-color: skyblue;
 }
 
 /* NAVIGATION MENU */
@@ -71,6 +72,7 @@ body {
 .heading h3{
     text-align: center;
     margin-bottom: 0px;
+    padding-bottom: 20px;
 }
 /* Logo */
 
@@ -80,6 +82,7 @@ body {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    padding-bottom: 20px;
 }
 
 /* HOME PAGE GRID */
@@ -170,6 +173,15 @@ body {
     grid-column-start: 1;
     grid-column-end: 3;
     
+}
+
+/* ICONS */
+
+.icons {
+    color: black;
+    font-size: 24px;
+    padding-top: 20px;
+    padding-bottom: 5px;
 }
 
 
