@@ -200,6 +200,18 @@ body {
     margin: 0;
 }
 
+/* IMAGE */
+.img-about {
+    text-align: center;
+    padding-top: 30px;
+}
+
+.about-pic-3 {
+    width: 280px;
+    height: auto;
+    margin-bottom: 80px;
+}
+
 /* FOOTER */
 .footer {
    position: fixed;
