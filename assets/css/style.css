@@ -201,7 +201,7 @@ body {
     
 }
 .container-main p {
-    margin: 0;
+    padding-bottom: 1000;
 }
 
 /* IMAGE */
@@ -218,7 +218,6 @@ body {
 
 /* FOOTER */
 .footer {
-   position: fixed;
    left: 0;
    bottom: 0;
    width: 100%;
@@ -231,6 +230,21 @@ body {
     padding-bottom: 5px;
 }
 
+/* TEAM PAGE */
+
+.img-container {
+   text-align: center;
+}
+
+.team-pic-5 {
+    height: auto;
+    width: 310px;
+    margin-bottom: 10px;
+}  
+
+     
+    
+ 
 
 
 
