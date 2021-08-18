@@ -173,6 +173,8 @@ body {
     grid-column-start: 1;
     grid-column-end: 3;
     
+
+    
 }
 
 /* ICONS */
@@ -180,9 +182,40 @@ body {
 .icons {
     color: black;
     font-size: 24px;
-    padding-top: 20px;
+    padding-top: 5px;
     padding-bottom: 5px;
 }
+
+/* ABOUT PAGE */
+.header-about {
+    text-align: center;
+    padding-top: 20px;
+}
+.container-main {
+    font-size: .9rem;
+    padding: 10px 40px 0 40px;
+    
+}
+.container-main p {
+    margin: 0;
+}
+
+/* FOOTER */
+.footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   text-align: center;
+   background-color: rgb(1,136,7);
+   font-size: smaller;
+}
+
+.copyright {
+    padding-bottom: 5px;
+}
+
+
 
 
 
