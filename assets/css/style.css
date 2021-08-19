@@ -250,9 +250,8 @@ body {
 
 figcaption {
     max-width: 300px;
-    font-size: 14px;
-    margin-right: 10%;
-    margin-left: 10%;
+    font-size: 14px;         
+    margin: auto; 
 
 }
 
