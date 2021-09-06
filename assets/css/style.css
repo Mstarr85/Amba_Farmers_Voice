@@ -258,11 +258,12 @@ figcaption {
 /* VIDEO PAGE */
 .header-video {
     text-align: center;
+   
 }
 
 .video-categories {
     text-align: center;
-    
+    margin: 30px 0 30px 0;
 }
 .video-images {
     max-width: 300px;
