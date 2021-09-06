@@ -255,6 +255,22 @@ figcaption {
 
 }
 
+/* VIDEO PAGE */
+.header-video {
+    text-align: center;
+}
+
+.video-categories {
+    text-align: center;
+    
+}
+.video-images {
+    max-width: 300px;
+    max-height: 200px;
+   
+    
+}
+
      
     
  
