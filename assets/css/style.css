@@ -285,7 +285,39 @@ figcaption {
     
 }
 
-     
+/* HISTORY PAGE */
+.flag-container {
+    text-align: center;
+} 
+.flag {
+    width: 330px;
+    height: auto;
+    display: inline-block;
+    
+ 
+  
+    
+}
+
+.history-grid {
+    display: inline-block;
+    text-align: left;
+    padding: 1em;
+}
+
+.history-grid h3{
+    display: block;
+    text-align: center;
+}
+
+
+.history-grid a {
+    display: inline-block;
+    padding: .5em 1em .5em 1em;
+    text-align: center;
+}
+
+
     
  
 
