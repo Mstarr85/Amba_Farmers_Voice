@@ -210,12 +210,20 @@ background: linear-gradient(to top, #4286f4, #373B44); /* W3C, IE 10+/ Edge, Fir
 }
 
 /* ICONS */
-
 .icons {
+    margin-top: 5px;
+}
+
+div .icons {
+    margin-bottom: 5px;
+}
+.icons a{
     color: black;
     font-size: 24px;
     padding-top: 5px;
     padding-bottom: 5px;
+    margin-top: 10px;
+    text-decoration: none;
 }
 
 /* ABOUT PAGE */
