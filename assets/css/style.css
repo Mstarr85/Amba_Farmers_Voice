@@ -94,7 +94,8 @@ background: linear-gradient(to top, #4286f4, #373B44); /* W3C, IE 10+/ Edge, Fir
 .heading h3{
     text-align: center;
     margin-bottom: 0px;
-    padding-bottom: 20px;
+    margin-top: 40px;
+    padding-bottom: 40px;
 }
 /* Logo */
 
@@ -104,7 +105,7 @@ background: linear-gradient(to top, #4286f4, #373B44); /* W3C, IE 10+/ Edge, Fir
     display: block;
     margin-left: auto;
     margin-right: auto;
-    padding-bottom: 20px;
+    padding-bottom: 40px;
 }
 
 /* HOME PAGE GRID */
@@ -116,7 +117,6 @@ background: linear-gradient(to top, #4286f4, #373B44); /* W3C, IE 10+/ Edge, Fir
   }
 
 .grid-item {
-    /* border: 1px solid; */
     display: inline-grid;
     padding-left: 8px;
     font-size: 12px;
@@ -132,22 +132,21 @@ background: linear-gradient(to top, #4286f4, #373B44); /* W3C, IE 10+/ Edge, Fir
     
 }
 
- h6 {
-     margin-bottom: 0px;
-     margin-top: 0px;
-  
-   
-}
 
 .grid-item p {
     font-size: 10px;
     text-align: left;
     margin-top: 0px;
+    max-width: 140px;
+}
+
+.grid-item ul.values {
+    max-width: 160;
 }
 
 .grid-pic-1 {
-    height: 140px;
-    width: auto; 
+    height: auto;
+    max-width: 160px; 
     padding-right: 0;
     padding-left: 0;
 }
@@ -157,39 +156,56 @@ background: linear-gradient(to top, #4286f4, #373B44); /* W3C, IE 10+/ Edge, Fir
     text-align: left;
     padding-left: 8px;
     padding-right: 0;
-}
+} 
 
 .grid-pic-2 {
+    height: auto;
+    max-width: 155px; 
+    margin-top: 70px;
+   
 
-    height: 125px;
-    width: auto; 
-    padding-right: 0;
-    padding-left: 0;
-    padding-top: 25%;
-    padding-bottom: 25%;
 }
 
+
+#grid-item-2 p{
+    max-width: 140px;
+    padding-left: 15px;
+    
+
+}
+
+
 .grid-pic-4 {
-    height: 120px;
-    width: auto; 
+    height: auto;
+    max-width: 170px; 
     padding-right: 0;
     padding-left: 0;
     padding-top: 50%;
     padding-bottom: 50%;
 }
 
-.grid-item-2 {
-    padding-top: 0;
-    padding-left: 0;
+#grid-item-3 {
+    margin-top: 10px;
+}
+#grid-item-3 h4{
+    padding-top: 10px;
+    margin-bottom: 0;
 }
 
-#grid-item-3 h6{
-    padding-top: 25%;
+#grid-item-3 li {
+    max-width: 140px;
 }
 
-#grid-item-6 h6{
-    padding-top: 20px;
+#grid-item-6 h4{
+   
     padding-left: 0px;
+    margin-bottom: 0;
+    
+}
+
+#grid-item-6 p {
+    max-width: 140px;
+    padding-left: 15px;
 }
 
 /* Footer */
