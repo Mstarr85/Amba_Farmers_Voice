@@ -216,7 +216,7 @@ background: linear-gradient(to top, #4286f4, #373B44); /* W3C, IE 10+/ Edge, Fir
 
 div .icons {
     margin-bottom: 5px;
-    text-decoration: none;
+    text-decoration: none!important;
 
 }
 .icons a{
@@ -225,7 +225,7 @@ div .icons {
     padding-top: 5px;
     padding-bottom: 5px;
     margin-top: 10px;
-    text-decoration: none;
+    text-decoration: none!important;
 }
 
 /* ABOUT PAGE */
