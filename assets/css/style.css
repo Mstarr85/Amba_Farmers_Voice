@@ -216,6 +216,8 @@ background: linear-gradient(to top, #4286f4, #373B44); /* W3C, IE 10+/ Edge, Fir
 
 div .icons {
     margin-bottom: 5px;
+    text-decoration: none;
+
 }
 .icons a{
     color: black;
