@@ -329,7 +329,51 @@ figcaption {
     text-align: center;
 }
 
+/* CONTACT PAGE */
+.contact-grid {
+    text-align: center;
+   
+}
+.contact-header {
+   margin: 40px 0 40px 0;
+}
 
+.center-icons {
+   
+   margin: 0 auto;
+   max-width: 290px;
+   
+   
+   
+}
+
+.contact-icons i {
+    color: black;
+}
+.contact-icons {
+    text-align: center;
+    vertical-align: auto;
+    color: black;
+    
+}
+
+.contact-icons div {
+    text-align: left;
+    
+  
+    
+}
+
+.icon-info{
+    display: inline-block;
+    padding: 10px;
+    text-decoration: none!important;
+    color: black;
+}
+
+#sawbo {
+    padding-bottom: 30px;
+}
     
 
 
